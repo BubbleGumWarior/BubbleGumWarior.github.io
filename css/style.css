@@ -825,7 +825,7 @@ h3.my-profession
     height: 140px;
 }
 
-@media (max-width: 1299px)
+@media (max-width: 1335px)
 {
     .aside
     {
@@ -840,7 +840,7 @@ h3.my-profession
         display: block;
     }
 }
-@media (max-width: 1091px)
+@media (max-width: 1100px)
 {
     .contact .contact-info-item,
     .portfolio .portfolio-item,
