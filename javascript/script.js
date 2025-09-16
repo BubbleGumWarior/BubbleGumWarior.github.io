@@ -1,5 +1,5 @@
 var typed = new Typed(".typing",{
-    strings:["Web Developer", "Front-End Developer", "Back-End Developer", "Database Developer", "Full-Stack Developer", "Software Engineer", "Project Manager", "Solutions Architect", "Leader"],
+    strings:["Digital Forensics Specialist", "Incident Response Analyst", "DFIR Expert", "Cyber Investigator", "Forensics Analyst", "Security Researcher", "Evidence Examiner", "Threat Hunter", "Malware Analyst"],
     typeSpeed:80,
     BackSpeed:60,
     loop:true

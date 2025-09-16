@@ -408,41 +408,50 @@ h3.my-profession
     text-align: center;
     position: relative;
 }
-.home-img::after
-{
+
+
+.home .home-img {
+    flex: 0 0 40%;
+    max-width: 40%;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0;
+}
+.home-img::after {
     content: '';
     position: absolute;
     height: 80px;
     width: 80px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
-    right: 20px;
+    right: -40px; /* Move further out so it doesn't overlap image */
     bottom: -40px;
+    pointer-events: none;
 }
-.home-img::before
-{
+.home-img::before {
     content: '';
     position: absolute;
     height: 80px;
     width: 80px;
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
-    left: -20px;
+    left: -40px; /* Move further out so it doesn't overlap image */
     top: -40px;
+    pointer-events: none;
 }
-.home .home-img img
-{
+.home .home-img img {
     margin: auto;
-    border-radius: 5px;
+    border-radius: 10px;
     height: 400px;
-}
-
-/* About Starts Here*/
-
-.about .about-content
-{
-    flex: 0 0 100%;
+    width: auto;
     max-width: 100%;
+    display: block;
+    box-shadow: 0 4px 24px rgba(48,46,77,0.10);
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
 }
 .about .about-content .about-text
 {
